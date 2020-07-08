@@ -1,0 +1,130 @@
+html {
+	background-color: #FEFCFB;
+}
+
+body {
+	color: #333;
+	line-height: 1.8em;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+.nav-bar {
+	text-align: right;
+	margin-top: 20px;
+}
+	.navbar-list {
+		margin: 0;
+		list-style: none;
+	}
+		.navbar-item {
+			display: inline;
+			padding: 20px;
+		}
+			.navbar-link {
+
+			}
+
+.table-of-contents {
+	margin: 48px 0;
+}
+
+	.contents-item {
+		margin: 24px 0;
+	}
+		.contents-title {
+			margin-bottom: 8px;
+		}
+		.contents-description {
+
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.category_color {
+	padding: 2px 5px;
+    font-style: italic;
+}
+
+	.category_color.activities,
+	.resource-category-wrapper.activity,
+	.resource-category.activity {
+		background-color: #F3C8B9;
+	}
+	.category_color.tools {
+		background-color: #ADE7FF;
+	}
+	.category_color.frameworks {
+		background-color: #FFE7AD;
+	}
+	.category_color.articles {
+		background-color: #BFD9D0;
+	}
+
+
+	.resource-category-wrapper.activity:hover {
+		background-color: #EAA085;
+	}
+
+
+
+.phase {
+	margin: 48px 0;
+}
+
+
+
+
+.resource {
+	margin: 40px 0;
+}
+
+	.resource-category-wrapper {
+		width: 150px;
+		height: 8px;
+		display: block;
+		cursor: pointer;
+		margin-bottom: 8px;
+	}
+		.resource-category {
+		  display: none;
+		  padding: 10px;
+		}
+		.category-active {
+		  height: auto;
+		  display: block;
+		}
+		.auto-height {
+			height:auto;
+		}
+
+	.resource-title {
+		font-size: 1.5em;
+		margin-bottom: 8px;
+	}
+	.resource-description {
+		line-height: 1.8em;
+	}
+
+
+
