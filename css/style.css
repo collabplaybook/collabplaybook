@@ -66,25 +66,46 @@ a {
     font-style: italic;
 }
 
-	.category_color.activities,
+	.category_color.activity,
 	.resource-category-wrapper.activity,
 	.resource-category.activity {
 		background-color: #F3C8B9;
 	}
-	.category_color.tools {
+	.category_color.tool,
+	.resource-category-wrapper.tool,
+	.resource-category.tool {
 		background-color: #ADE7FF;
 	}
-	.category_color.frameworks {
+	.category_color.framework,
+	.resource-category-wrapper.framework,
+	.resource-category.framework {
 		background-color: #FFE7AD;
 	}
-	.category_color.articles {
+	.category_color.article,
+	.resource-category-wrapper.article,
+	.resource-category.article {
 		background-color: #BFD9D0;
 	}
 
 
-	.resource-category-wrapper.activity:hover {
+	.resource-category-wrapper.activity:hover,
+	.resource-category.activity:hover {
 		background-color: #EAA085;
 	}
+	.resource-category-wrapper.tool:hover,
+	.resource-category.tool:hover {
+		background-color: #87d8f9;
+	}
+
+	.resource-category-wrapper.framework:hover,
+	.resource-category.framework:hover {
+		background-color: #ffd776;
+	}
+	.resource-category-wrapper.article:hover,
+	.resource-category.article:hover {
+		background-color: #acd0c3;
+	}
+
 
 
 
