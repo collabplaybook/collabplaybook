@@ -129,7 +129,8 @@ a {
 	}
 		.resource-category {
 		  display: none;
-		  padding: 10px;
+		  padding: 3px 7px;
+		  font-style: italic;
 		}
 		.category-active {
 		  height: auto;
