@@ -1,68 +1,82 @@
 html {
-  background-color: #fefcfb;
+	background-color: #FEFCFB;
 }
 
 body {
-  color: #333;
-  line-height: 1.8em;
+	color: #333;
+	line-height: 1.8em;
+}
+
+.hidden {
+  display: none;
 }
 
 a {
-  color: #000;
-  text-decoration: none;
+	color: #000;
+	text-decoration: none;
 }
 
 a:hover {
-  color: #ff8257;
+	color: #ff8257;
 }
 
 .nav-bar {
-  text-align: right;
-  margin-top: 20px;
+	text-align: right;
+	margin-top: 20px;
 }
-.navbar-list {
-  margin: 0;
-  list-style: none;
-}
-.navbar-item {
-  display: inline;
-  padding: 20px;
-}
-.navbar-link {
-}
+	.navbar-list {
+		margin: 0;
+		list-style: none;
+	}
+		.navbar-item {
+			display: inline;
+			padding: 20px;
+		}
+			.navbar-link {
+
+			}
 
 .table-of-contents {
-  margin: 48px 0;
+	margin: 48px 0;
 }
 
-.contents-item {
-  margin: 24px 0;
-}
-.contents-title {
-  margin-bottom: 8px;
-}
-.contents-description {
-}
+	.contents-item {
+		margin: 24px 0;
+	}
+		.contents-title {
+			margin-bottom: 8px;
+		}
+		.contents-description {
 
-.filter-wrapper {
+		}
+
+
+
+
+.filter-wrapper{
   position: relative;
 }
 
-@media (min-width: 550px) {
-  /*Skeletons default grid-activation width*/
-  .filter-wrapper {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
+@media (min-width: 550px) { /*Skeletons default grid-activation width*/
+  .filter-wrapper{
+	  position: -webkit-sticky; /* Safari */
+	  position: sticky;
+	  top: 0;
     max-width: 18%; /*Avoids overlapping*/
   }
 
   .filters {
-    margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #e1e1e1;
+  	margin-top: 20px;
+  	padding: 10px;
+  	border: 1px solid #e1e1e1;
   }
+
+
+
 }
+
+
+
 
 /***
 CHECKBOXES *******************************************
@@ -106,7 +120,7 @@ CHECKBOXES *******************************************
 
 /* When the checkbox is checked, add a blue background */
 .checkbox-container input:checked ~ .checkmark {
-  background-color: #2196f3;
+  background-color: #2196F3;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -137,82 +151,98 @@ CHECKBOXES *******************************************
 CHECKBOXES *******************************************
 ***/
 
+
+
+
+
+
+
+
 .category_color {
-  padding: 2px 5px;
-  font-style: italic;
+	padding: 2px 5px;
+    font-style: italic;
 }
 
-.category_color.activity,
-.resource-category-wrapper.activity,
-.resource-category.activity {
-  background-color: #ade7ff;
-}
-.category_color.tool,
-.resource-category-wrapper.tool,
-.resource-category.tool {
-  background-color: #ade7ff;
-}
-.category_color.framework,
-.resource-category-wrapper.framework,
-.resource-category.framework {
-  background-color: #bfd9d0;
-}
-.category_color.article,
-.resource-category-wrapper.article,
-.resource-category.article {
-  background-color: #ffe7ad;
-}
+	.category_color.activity,
+	.resource-category-wrapper.activity,
+	.resource-category.activity {
+		background-color: #ADE7FF;
+	}
+	.category_color.tool,
+	.resource-category-wrapper.tool,
+	.resource-category.tool {
+		background-color: #ADE7FF;
+	}
+	.category_color.framework,
+	.resource-category-wrapper.framework,
+	.resource-category.framework {
+		background-color: #BFD9D0;
+	}
+	.category_color.article,
+	.resource-category-wrapper.article,
+	.resource-category.article {
+		background-color: #FFE7AD;
+	}
 
-.resource-category-wrapper.activity:hover,
-.resource-category.activity:hover {
-  background-color: #ade7ff;
-}
-.resource-category-wrapper.tool:hover,
-.resource-category.tool:hover {
-  background-color: #87d8f9;
-}
 
-.resource-category-wrapper.framework:hover,
-.resource-category.framework:hover {
-  background-color: #bfd9d0;
-}
-.resource-category-wrapper.article:hover,
-.resource-category.article:hover {
-  background-color: #ffe7ad;
-}
+	.resource-category-wrapper.activity:hover,
+	.resource-category.activity:hover {
+		background-color: #ADE7FF;
+	}
+	.resource-category-wrapper.tool:hover,
+	.resource-category.tool:hover {
+		background-color: #87d8f9;
+	}
+
+	.resource-category-wrapper.framework:hover,
+	.resource-category.framework:hover {
+		background-color: #BFD9D0;
+	}
+	.resource-category-wrapper.article:hover,
+	.resource-category.article:hover {
+		background-color: #FFE7AD;
+	}
+
+
+
 
 .phase {
-  margin: 48px 0;
+	margin: 48px 0;
 }
+
+
+
 
 .resource {
-  margin: 40px 0;
+	margin: 40px 0;
 }
 
-.resource-category-wrapper {
-  width: 150px;
-  height: 8px;
-  display: block;
-  cursor: pointer;
-  margin-bottom: 8px;
-}
-.resource-category {
-  display: none;
-  padding: 3px 7px;
-  font-style: italic;
-}
-.category-active {
-  height: auto;
-  display: block;
-}
-.auto-height {
-  height: auto;
-}
+	.resource-category-wrapper {
+		width: 150px;
+		height: 8px;
+		display: block;
+		cursor: pointer;
+		margin-bottom: 8px;
+	}
+		.resource-category {
+		  display: none;
+		  padding: 3px 7px;
+		  font-style: italic;
+		}
+		.category-active {
+		  height: auto;
+		  display: block;
+		}
+		.auto-height {
+			height:auto;
+		}
 
-.resource-title {
-  font-size: 1.5em;
-  margin-bottom: 8px;
-}
-.resource-description {
-  line-height: 1.8em;
-}
+	.resource-title {
+		font-size: 1.5em;
+		margin-bottom: 8px;
+	}
+	.resource-description {
+		line-height: 1.8em;
+	}
+
+
