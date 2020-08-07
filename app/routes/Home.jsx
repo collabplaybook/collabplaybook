@@ -8,9 +8,9 @@ const Home = function() {
   document.title = "Collab Playbook";
 
   const [filterResourceType, setFilterResourceType] = React.useState({
-    activity: false,
-    article: false,
-    framework: false
+    activity: true,
+    article: true,
+    framework: true
   });
 
   const handleFilterChange = event => {
