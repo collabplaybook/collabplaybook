@@ -108,7 +108,7 @@ const Home = function() {
 
               <div class="resources">
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -133,7 +133,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -157,7 +157,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -181,7 +181,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -226,7 +226,7 @@ const Home = function() {
 
               <div class="resources">
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -248,7 +248,7 @@ const Home = function() {
                   </div>
                 </div>
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -269,7 +269,7 @@ const Home = function() {
                   </div>
                 </div>
                 <div
-                  className={filterResourceType.article && "hidden"}
+                  className={!filterResourceType.article && "hidden"}
                   class="resource article"
                 >
                   <div class="resource-title">
@@ -291,7 +291,7 @@ const Home = function() {
                   </div>
                 </div>
                 <div
-                  className={filterResourceType.framework && "hidden"}
+                  className={!filterResourceType.framework && "hidden"}
                   class="resource framework"
                 >
                   <div class="resource-title">
@@ -312,7 +312,7 @@ const Home = function() {
                   </div>
                 </div>
                 <div
-                  className={filterResourceType.framework && "hidden"}
+                  className={!filterResourceType.framework && "hidden"}
                   class="resource framework"
                 >
                   <div class="resource-title">
@@ -353,7 +353,7 @@ const Home = function() {
 
               <div class="resources">
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -378,7 +378,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.article && "hidden"}
+                  className={!filterResourceType.article && "hidden"}
                   class="resource article"
                 >
                   <div class="resource-title">
@@ -402,7 +402,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.article && "hidden"}
+                  className={!filterResourceType.article && "hidden"}
                   class="resource article"
                 >
                   <div class="resource-title">
@@ -425,7 +425,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.article && "hidden"}
+                  className={!filterResourceType.article && "hidden"}
                   class="resource article"
                 >
                   <div class="resource-title">
@@ -448,7 +448,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.article && "hidden"}
+                  className={!filterResourceType.article && "hidden"}
                   class="resource article"
                 >
                   <div class="resource-title">
@@ -473,7 +473,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -498,7 +498,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.article && "hidden"}
+                  className={!filterResourceType.article && "hidden"}
                   class="resource article"
                 >
                   <div class="resource-title">
@@ -523,7 +523,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -546,7 +546,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.framework && "hidden"}
+                  className={!filterResourceType.framework && "hidden"}
                   class="resource framework"
                 >
                   <div class="resource-title">
@@ -568,7 +568,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.framework && "hidden"}
+                  className={!filterResourceType.framework && "hidden"}
                   class="resource framework"
                 >
                   <div class="resource-title">
@@ -611,7 +611,7 @@ const Home = function() {
               </div>
               <div class="resources">
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -633,7 +633,7 @@ const Home = function() {
                   </div>
                 </div>
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -675,7 +675,7 @@ const Home = function() {
               </div>
               <div class="resources">
                 <div
-                  className={filterResourceType.framework && "hidden"}
+                  className={!filterResourceType.framework && "hidden"}
                   class="resource framework"
                 >
                   <div class="resource-title">
@@ -698,7 +698,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -722,7 +722,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -745,7 +745,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -770,7 +770,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.activity && "hidden"}
+                  className={!filterResourceType.activity && "hidden"}
                   class="resource activity"
                 >
                   <div class="resource-title">
@@ -793,7 +793,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.article && "hidden"}
+                  className={!filterResourceType.article && "hidden"}
                   class="resource article"
                 >
                   <div class="resource-title">
@@ -816,7 +816,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.article && "hidden"}
+                  className={!filterResourceType.article && "hidden"}
                   class="resource article"
                 >
                   <div class="resource-title">
@@ -838,7 +838,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.article && "hidden"}
+                  className={!filterResourceType.article && "hidden"}
                   class="resource article"
                 >
                   <div class="resource-title">
@@ -880,7 +880,7 @@ const Home = function() {
               </div>
               <div class="resources">
                 <div
-                  className={filterResourceType.article && "hidden"}
+                  className={!filterResourceType.article && "hidden"}
                   class="resource article"
                 >
                   <div class="resource-title">
@@ -904,7 +904,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.framework && "hidden"}
+                  className={!filterResourceType.framework && "hidden"}
                   class="resource framework"
                 >
                   <div class="resource-title">
@@ -922,7 +922,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.article && "hidden"}
+                  className={!filterResourceType.article && "hidden"}
                   class="resource article"
                 >
                   <div class="resource-title">
@@ -946,7 +946,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.article && "hidden"}
+                  className={!filterResourceType.article && "hidden"}
                   class="resource article"
                 >
                   <div class="resource-title">
@@ -971,7 +971,7 @@ const Home = function() {
                 </div>
 
                 <div
-                  className={filterResourceType.article && "hidden"}
+                  className={!filterResourceType.article && "hidden"}
                   class="resource article"
                 >
                   <div class="resource-title">
