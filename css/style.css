@@ -49,9 +49,22 @@ a:hover {
 
 
 
-.filter-wrapper{
+.filter-wrapper {
   position: relative;
 }
+
+.filter-wrapper .phases-menu {
+	margin: 0;
+	margin-bottom: 20px;
+    list-style: none;
+}
+	.filter-wrapper .phases-menu li {
+		margin-bottom: 0;
+	}
+	.filter-wrapper .phases-menu a {
+		margin-bottom: 0;
+	}
+
 
 @media (min-width: 550px) { /*Skeletons default grid-activation width*/
   .filter-wrapper{
