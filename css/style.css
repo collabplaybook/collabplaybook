@@ -16,8 +16,12 @@ a:hover {
 	color: #ff8257;
 }
 
-.nav-bar {
-	text-align: right;
+.main-content {
+	margin: 50px auto 100px;
+}
+
+.about-section {
+	text-align: center;
 	margin-top: 20px;
 }
 	.navbar-list {
