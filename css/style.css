@@ -41,6 +41,7 @@ a:hover {
 	}
 		.contents-title {
 			margin-bottom: 8px;
+			font-weight: 400;
 		}
 		.contents-description {
 
@@ -59,11 +60,20 @@ a:hover {
     list-style: none;
 }
 	.filter-wrapper .phases-menu li {
-		margin-bottom: 0;
+		margin-bottom: 3px;
 	}
 	.filter-wrapper .phases-menu a {
 		margin-bottom: 0;
 	}
+
+
+.toggle-labels {
+	display: none;
+}
+
+.filter-wrapper{
+	display: none;
+}
 
 
 @media (min-width: 550px) { /*Skeletons default grid-activation width*/
@@ -71,7 +81,8 @@ a:hover {
 	  position: -webkit-sticky; /* Safari */
 	  position: sticky;
 	  top: 0;
-    max-width: 18%; /*Avoids overlapping*/
+    	max-width: 18%; /*Avoids overlapping*/
+    display: block;
   }
 
   .filters {
@@ -93,8 +104,8 @@ CHECKBOXES *******************************************
 .checkbox-container {
   display: block;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
+  padding-left: 25px;
+  margin-bottom: 6px;
   cursor: pointer;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -114,12 +125,14 @@ CHECKBOXES *******************************************
 
 /* Create a custom checkbox */
 .checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
+	position: absolute;
+    top: 4px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+  	background-color: #fff;
+  	border: 1px solid #ff8257;
+  	border-radius: 2px
 }
 
 /* On mouse-over, add a grey background color */
@@ -127,9 +140,9 @@ CHECKBOXES *******************************************
   background-color: #e1e1e1;
 }
 
-/* When the checkbox is checked, add a blue background */
+/* When the checkbox is checked, add a red background */
 .checkbox-container input:checked ~ .checkmark {
-  background-color: #2196F3;
+  background-color: #ff8257;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -146,15 +159,15 @@ CHECKBOXES *******************************************
 
 /* Style the checkmark/indicator */
 .checkbox-container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+	left: 5px;
+	top: 1px;
+	width: 4px;
+	height: 8px;
+	border: solid white;
+	border-width: 0 2px 2px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 /***
 CHECKBOXES *******************************************
@@ -177,11 +190,6 @@ CHECKBOXES *******************************************
 	.resource-category.activity {
 		background-color: #ADE7FF;
 	}
-	.category_color.tool,
-	.resource-category-wrapper.tool,
-	.resource-category.tool {
-		background-color: #ADE7FF;
-	}
 	.category_color.framework,
 	.resource-category-wrapper.framework,
 	.resource-category.framework {
@@ -196,34 +204,30 @@ CHECKBOXES *******************************************
 
 	.resource-category-wrapper.activity:hover,
 	.resource-category.activity:hover {
-		background-color: #ADE7FF;
-	}
-	.resource-category-wrapper.tool:hover,
-	.resource-category.tool:hover {
-		background-color: #87d8f9;
+		background-color: #72d0f7;
 	}
 
 	.resource-category-wrapper.framework:hover,
 	.resource-category.framework:hover {
-		background-color: #BFD9D0;
+		background-color: #96bdb0;
 	}
 	.resource-category-wrapper.article:hover,
 	.resource-category.article:hover {
-		background-color: #FFE7AD;
+		background-color: #f5c75a;
 	}
 
 
 
 
 .phase {
-	margin: 48px 0;
+	padding: 20px 0;
 }
 
 
 
 
 .resource {
-	margin: 40px 0;
+	margin: 40px 0 10px 0;
 }
 
 	.resource-category-wrapper {
