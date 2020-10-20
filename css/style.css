@@ -24,17 +24,12 @@ a:hover {
 	text-align: center;
 	margin-top: 20px;
 }
-	.navbar-list {
-		margin: 0;
-		list-style: none;
+	.about-section p {
+		margin-bottom: 8px;
 	}
-		.navbar-item {
-			display: inline;
-			padding: 20px;
-		}
-			.navbar-link {
-
-			}
+	.about-section a {
+		font-weight: 500;
+	}
 
 .table-of-contents {
 	margin: 48px 0;
