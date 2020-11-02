@@ -137,6 +137,18 @@ CHECKBOXES *******************************************
   font-weight: 400;
 }
 
+
+.checkbox-container .activity{
+	border-bottom: 2px solid #72d0f7;
+}
+.checkbox-container .article{
+	border-bottom: 2px solid #f5c75a;
+}
+.checkbox-container .framework{
+	border-bottom: 2px solid #96bdb0;
+}
+
+
 /* Hide the browser's default checkbox */
 .checkbox-container input {
   position: absolute;
