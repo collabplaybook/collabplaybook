@@ -268,7 +268,7 @@ CHECKBOXES *******************************************
 		display: inline-block;
 		vertical-align: top;
 		border-radius: 20px;
-		margin-left: 10px;
+
 	}
 		.resource-category {
 		  padding: 3px 7px;
@@ -282,6 +282,7 @@ CHECKBOXES *******************************************
 	.resource-title {
 		font-size: 1.5em;
 		display: inline;
+		padding-right: 10px;
 	}
 	.resource-description {
 		margin-top: 8px;
