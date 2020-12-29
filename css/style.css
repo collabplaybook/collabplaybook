@@ -224,32 +224,28 @@ CHECKBOXES *******************************************
 	.category_color.activity,
 	.resource-category-wrapper.activity,
 	.resource-category.activity {
-		background-color: #ADE7FF;
+		background-color: #d1edf9;
 	}
+	.resource.activity {
+		border-left-color:#d1edf9;
+	}
+
 	.category_color.framework,
 	.resource-category-wrapper.framework,
 	.resource-category.framework {
 		background-color: #BFD9D0;
 	}
+	.resource.framework {
+		border-left-color:#BFD9D0;
+	}
+
 	.category_color.article,
 	.resource-category-wrapper.article,
 	.resource-category.article {
 		background-color: #FFE7AD;
 	}
-
-
-	.resource-category-wrapper.activity:hover,
-	.resource-category.activity:hover {
-		background-color: #72d0f7;
-	}
-
-	.resource-category-wrapper.framework:hover,
-	.resource-category.framework:hover {
-		background-color: #96bdb0;
-	}
-	.resource-category-wrapper.article:hover,
-	.resource-category.article:hover {
-		background-color: #f5c75a;
+	.resource.article {
+		border-left-color:#FFE7AD;
 	}
 
 
@@ -264,33 +260,31 @@ CHECKBOXES *******************************************
 
 .resource {
 	margin: 40px 0 10px 0;
+	border-left: 5px solid #bbb;
+    padding-left: 10px;
 }
 
 	.resource-category-wrapper {
-		width: 150px;
-		height: 8px;
-		display: block;
-		cursor: pointer;
-		margin-bottom: 8px;
+		display: inline-block;
+		vertical-align: top;
+		border-radius: 20px;
+		margin-left: 10px;
 	}
 		.resource-category {
-		  display: none;
 		  padding: 3px 7px;
 		  font-style: italic;
-		}
-		.category-active {
-		  height: auto;
-		  display: block;
-		}
-		.auto-height {
-			height:auto;
+		  padding: 0px 10px;
+    		border-radius: 20px;
+   			font-style: italic;
+    		font-size: 12px;
 		}
 
 	.resource-title {
 		font-size: 1.5em;
-		margin-bottom: 8px;
+		display: inline;
 	}
 	.resource-description {
+		margin-top: 8px;
 		line-height: 1.8em;
 	}
 
