@@ -2,11 +2,40 @@
 
 
 $('.resource-checkboxes').change(function() {
-
    var myID = $(this).attr("id");
 		$('.resource.'+myID).toggle();
 
 });
+
+
+
+
+
+function scroll_to_top() {
+	var scroll_up_button= $('.scroll-up')
+    var window_top= $(window).scrollTop();
+    var table_contents_bottom= $('.table-of-contents').offset().top;
+
+  
+    if (window_top > table_contents_bottom) {
+        scroll_up_button.addClass('show');
+    } else {
+        scroll_up_button.removeClass('show');
+    }
+}
+
+$(function () {
+    $(window).scroll(scroll_to_top);
+    scroll_to_top();
+});
+
+
+
+
+
+
+
+
 
 
 $(document).ready(function(){

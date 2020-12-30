@@ -19,7 +19,7 @@ a:hover {
 
 .scroll-up {
 	position: fixed;
-    bottom: 25px;
+    bottom: -70px;
     right: 25px;
     width: 40px;
     background-color: #f3a084;
@@ -29,10 +29,18 @@ a:hover {
     text-align: center;
     vertical-align: bottom;
     line-height: 40px;
+    transition: all 1s ease 0s;
+    opacity: 0;
+
+
 }
 .scroll-up:hover {
 	background-color: #ff8257;
 	color: #FEFCFB;
+}
+.scroll-up.show {
+	bottom: 25px;
+	opacity: 1;
 }
 
 .main-content {
