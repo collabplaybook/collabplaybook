@@ -8,15 +8,11 @@ $('.resource-checkboxes').change(function() {
 });
 
 
-
-
-
 function scroll_to_top() {
 	var scroll_up_button= $('.scroll-up')
     var window_top= $(window).scrollTop();
     var table_contents_bottom= $('.table-of-contents').offset().top;
 
-  
     if (window_top > table_contents_bottom) {
         scroll_up_button.addClass('show');
     } else {
@@ -28,14 +24,6 @@ $(function () {
     $(window).scroll(scroll_to_top);
     scroll_to_top();
 });
-
-
-
-
-
-
-
-
 
 
 $(document).ready(function(){
