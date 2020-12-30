@@ -17,6 +17,24 @@ a:hover {
 	color: #ff8257;
 }
 
+.scroll-up {
+	position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 40px;
+    background-color: #f3a084;
+    color: #FEFCFB;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 40px;
+}
+.scroll-up:hover {
+	background-color: #ff8257;
+	color: #FEFCFB;
+}
+
 .main-content {
 	margin: 50px auto 100px;
 }
