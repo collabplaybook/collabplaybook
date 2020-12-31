@@ -1,3 +1,4 @@
+
 html {
 	background-color: #FEFCFB;
 }
@@ -31,8 +32,6 @@ a:hover {
     line-height: 40px;
     transition: all 1s ease 0s;
     opacity: 0;
-
-
 }
 .scroll-up:hover {
 	background-color: #ff8257;
@@ -276,17 +275,24 @@ CHECKBOXES *******************************************
 
 
 
-
 .phase {
-	padding: 20px 0;
+	padding-bottom: 40px;
 }
 
+.phase-title { 
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: -1px;
+	background-color: #FEFCFB;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #E1E1E1;
+	margin-bottom: 15px;
+}
 .phase-title h3 {
 	font-weight: 500;
+	margin-bottom: 0;
 }
-
-
-
 
 .resource {
 	margin: 40px 0 10px 0;
