@@ -164,33 +164,23 @@
           <label class="filter-title">Show</label>
           <label class="checkbox-container">
             <span class="activity">Activities</span>
-            <input type="checkbox" class="resource-checkboxes" id="activity" name="activity" checked onclick="gtag('event', 'resource-filter', {'event_category': 'filters', 'event_label': 'activities'});">
+            <input type="checkbox" class="resource-checkboxes" id="activity" name="activity" checked onclick="gtag('event', 'filter-resource', {'event_category': 'filters', 'event_label': 'activities'});">
             <span class="checkmark"></span>
           </label>
           <label class="checkbox-container">
             <span class="article">Articles</span>
-            <input type="checkbox" class="resource-checkboxes" id="article" name="article" checked onclick="gtag('event', 'resource-filter', {'event_category': 'filters', 'event_label': 'articles'});">
+            <input type="checkbox" class="resource-checkboxes" id="article" name="article" checked onclick="gtag('event', 'filter-resource', {'event_category': 'filters', 'event_label': 'articles'});">
             <span class="checkmark"></span>
           </label>
           <label class="checkbox-container">
             <span class="framework">Frameworks</span>
-            <input type="checkbox" class="resource-checkboxes" id="framework" name="framework" checked onclick="gtag('event', 'resource-filter', {'event_category': 'filters', 'event_label': 'frameworks'});">
+            <input type="checkbox" class="resource-checkboxes" id="framework" name="framework" checked onclick="gtag('event', 'filter-resource', {'event_category': 'filters', 'event_label': 'frameworks'});">
             <span class="checkmark"></span>
           </label>
-
-
-
-          <div class="toggle-labels">
-          Show type
-          </div>
-
-
-
         </div>
-
-
-
       </div>
+
+      
       <div class="nine columns">
         <div class="phases">
           <div class="phase" id="clarify">
@@ -204,7 +194,7 @@
             <div class="resources">
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://www.ibm.com/design/thinking/page/toolkit/activity/hopes-and-fears" target="_blank" class="resource-link">
+                  <a href="https://www.ibm.com/design/thinking/page/toolkit/activity/hopes-and-fears" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'clarify', 'event_label': 'hopes-and-fears'});">
                     Hopes and Fears
                   </a>
                 </div>
@@ -220,7 +210,7 @@
 
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://www.atlassian.com/team-playbook/plays/5-whys" target="_blank" class="resource-link">
+                  <a href="https://www.atlassian.com/team-playbook/plays/5-whys" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'clarify', 'event_label': '5-whys'});">
                     5 Whys Analysis
                   </a>
                 </div>
@@ -236,7 +226,7 @@
 
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://www.atlassian.com/team-playbook/plays/elevator-pitch" target="_blank" class="resource-link">
+                  <a href="https://www.atlassian.com/team-playbook/plays/elevator-pitch" target="_blank" onclick="gtag('event', 'click-resource', {'event_category': 'clarify', 'event_label': 'elevator-pitch'});" class="resource-link">
                     Elevator Pitch
                   </a>
                 </div>
@@ -252,7 +242,7 @@
 
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://www.atlassian.com/team-playbook/plays/project-poster" target="_blank" class="resource-link">
+                  <a href="https://www.atlassian.com/team-playbook/plays/project-poster" target="_blank" onclick="gtag('event', 'click-resource', {'event_category': 'clarify', 'event_label': 'project-poster'});" class="resource-link">
                     Project Poster
                   </a>
                 </div>
@@ -283,7 +273,7 @@
             <div class="resources">
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://www.atlassian.com/team-playbook/plays/pre-mortem" target="_blank" class="resource-link">
+                  <a href="https://www.atlassian.com/team-playbook/plays/pre-mortem" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'identify', 'event_label': 'pre-mortem'});">
                     Pre Mortem
                   </a>
                 </div>
@@ -298,7 +288,7 @@
               </div>
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://www.atlassian.com/team-playbook/plays/dependency-mapping" target="_blank" class="resource-link">
+                  <a href="https://www.atlassian.com/team-playbook/plays/dependency-mapping" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'identify', 'event_label': 'dependency-mapping'});">
                     Dependency Mapping
                   </a>
                 </div>
@@ -313,7 +303,7 @@
               </div>
               <div class="resource article">
                 <div class="resource-title">
-                  <a href="https://www.productplan.com/glossary/stakeholder-analysis/" target="_blank" class="resource-link">
+                  <a href="https://www.productplan.com/glossary/stakeholder-analysis/" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'identify', 'event_label': 'stakeholder-analysis'});">
                     Stakeholder Analysis
                   </a>
                 </div>
@@ -328,7 +318,7 @@
               </div>
               <div class="resource framework">
                 <div class="resource-title">
-                  <a href="https://mural.co/templates/manage-stakeholders-expectations" target="_blank" class="resource-link">
+                  <a href="https://mural.co/templates/manage-stakeholders-expectations" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'identify', 'event_label': 'mapping-stakeholder'});">
                         Mapping Stakeholder Template
                   </a>
                 </div>
@@ -343,7 +333,7 @@
               </div>
               <div class="resource framework">
                 <div class="resource-title">
-                  <a href="https://docs.google.com/spreadsheets/d/1IjFjwwrF0Ubtpnwyjei7zVZFblgJ6FMyVjoA21wG6U8/edit?usp=sharing" target="_blank" class="resource-link">
+                  <a href="https://docs.google.com/spreadsheets/d/1IjFjwwrF0Ubtpnwyjei7zVZFblgJ6FMyVjoA21wG6U8/edit?usp=sharing" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'identify', 'event_label': 'stakeholder-matrix'});">
                       Stakeholder Matrix Template
                   </a>
                 </div>
@@ -371,7 +361,7 @@
             <div class="resources">
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://www.atlassian.com/team-playbook/plays/stakeholder-communications-plan" target="_blank" class="resource-link">
+                  <a href="https://www.atlassian.com/team-playbook/plays/stakeholder-communications-plan" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'manage', 'event_label': 'stakeholder-communications'});">
                     Stakeholder Communications
                   </a>
                 </div>
@@ -387,7 +377,7 @@
 
               <div class="resource article">
                 <div class="resource-title">
-                  <a href="https://wavelength.asana.com/pyramid-clarity-strategic-alignment/" target="_blank" class="resource-link">
+                  <a href="https://wavelength.asana.com/pyramid-clarity-strategic-alignment/" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'manage', 'event_label': 'pyramid-clarity'});">
                     Pyramid of Clarity
                   </a>
                 </div>
@@ -403,7 +393,7 @@
 
               <div class="resource article">
                 <div class="resource-title">
-                  <a href="https://www.productplan.com/communicate-roadmap-stakeholders/" target="_blank" class="resource-link">
+                  <a href="https://www.productplan.com/communicate-roadmap-stakeholders/" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'manage', 'event_label': 'communicate-roadmap'});">
                     How to Communicate Your Roadmap to Stakeholders 
                   </a>
                 </div>
@@ -419,7 +409,7 @@
 
               <div class="resource article">
                 <div class="resource-title">
-                  <a href="https://medium.com/@jmspool/attaining-a-collaborative-shared-understanding-dc70cf03f98f" target="_blank" class="resource-link">
+                  <a href="https://medium.com/@jmspool/attaining-a-collaborative-shared-understanding-dc70cf03f98f" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'manage', 'event_label': 'shared-understanding'});">
                     Attaining a Collaborative Shared Understanding
                   </a>
                 </div>
@@ -436,7 +426,7 @@
 
               <div class="resource article">
                 <div class="resource-title">
-                  <a href="https://blog.jostle.me/blog/team-alignment/" target="_blank" class="resource-link">
+                  <a href="https://blog.jostle.me/blog/team-alignment/" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'manage', 'event_label': 'same-definition-success'});">
                     Share the Same Definition of Success
                   </a>
                 </div>
@@ -452,7 +442,7 @@
 
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://workshopbank.com/fishbowl-discussion" target="_blank" class="resource-link">
+                  <a href="https://workshopbank.com/fishbowl-discussion" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'manage', 'event_label': 'fishbowl'});">
                     Fishbowl Exercise
                   </a>
                 </div>
@@ -468,7 +458,7 @@
 
               <div class="resource article">
                 <div class="resource-title">
-                  <a href="https://medium.com/nyc-design/the-design-process-dilemma-how-to-align-process-problems-and-stakeholders-b3820affa733" target="_blank" class="resource-link">
+                  <a href="https://medium.com/nyc-design/the-design-process-dilemma-how-to-align-process-problems-and-stakeholders-b3820affa733" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'manage', 'event_label': 'design-process-dilemma'});">
                     The Design Process Dilemma: How to Align Process, Problems, and Stakeholders
                   </a>
                 </div>
@@ -484,7 +474,7 @@
 
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://workshopbank.com/culture-triangle" target="_blank" class="resource-link">
+                  <a href="https://workshopbank.com/culture-triangle" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'manage', 'event_label': 'culture-triangle'});">
                     Culture Triangle
                   </a>
                 </div>
@@ -500,7 +490,7 @@
 
               <div class="resource framework">
                 <div class="resource-title">
-                  <a href="https://docs.google.com/document/d/1-wqvP5L2O8nvl3MUroUJFCPozXZXn30nhhnw3BFen6I/edit?usp=sharing" target="_blank" class="resource-link">
+                  <a href="https://docs.google.com/document/d/1-wqvP5L2O8nvl3MUroUJFCPozXZXn30nhhnw3BFen6I/edit?usp=sharing" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'manage', 'event_label': 'key-decision-template'});">
                     Key Decision Log Template
                   </a>
                 </div>
@@ -516,7 +506,7 @@
 
               <div class="resource framework">
                 <div class="resource-title">
-                  <a href="https://docs.google.com/document/d/1kt_PDiVOUU_qfl8dO8snfsijhKWJZIAuDyPqazCSQbQ/edit?usp=sharing" target="_blank" class="resource-link">
+                  <a href="https://docs.google.com/document/d/1kt_PDiVOUU_qfl8dO8snfsijhKWJZIAuDyPqazCSQbQ/edit?usp=sharing" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'manage', 'event_label': 'cross-team-alignment'});">
                     Cross Team Alignment Checklist Template
                   </a>
                 </div>
@@ -529,10 +519,10 @@
                   A checklist to help you create a shared understanding and to determine how you would like to work together with your actively engaged stakeholders.
                 </div>
               </div>
-
-
             </div>
           </div>
+
+
 
           <div class="phase" id="knowledge">
             <div class="phase-title">
@@ -544,7 +534,7 @@
             <div class="resources">
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://www.atlassian.com/team-playbook/plays/learning-circle" target="_blank" class="resource-link">
+                  <a href="https://www.atlassian.com/team-playbook/plays/learning-circle" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'gain', 'event_label': 'learning-circle'});">
                     Learning Circle
                   </a>
                 </div>
@@ -559,7 +549,7 @@
               </div>
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://designsprintkit.withgoogle.com/methodology/phase1-understand/lightning-talks" target="_blank" class="resource-link">
+                  <a href="https://designsprintkit.withgoogle.com/methodology/phase1-understand/lightning-talks" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'gain', 'event_label': 'lightning-talks'});">
                     Lightning Talks
                   </a>
                 </div>
@@ -575,6 +565,7 @@
             </div>
           </div>
 
+onclick="gtag('event', 'click-resource', {'event_category': 'work', 'event_label': ''});"
 
           <div class="phase" id="work-together">
             <div class="phase-title">
@@ -586,7 +577,7 @@
             <div class="resources">
               <div class="resource framework">
                 <div class="resource-title">
-                  <a href="https://docs.google.com/document/d/1ezZqxyLb6xh_63xl9XtZvMv0QyPSXKOFcZAVK05mEYI/edit?usp=sharing" target="_blank" class="resource-link">
+                  <a href="https://docs.google.com/document/d/1ezZqxyLb6xh_63xl9XtZvMv0QyPSXKOFcZAVK05mEYI/edit?usp=sharing" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'work', 'event_label': 'questions-guide'});">
                     Questions To Guide Design Process
                   </a>
                 </div>
@@ -602,7 +593,7 @@
 
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://www.atlassian.com/team-playbook/plays/customer-journey-mapping" target="_blank" class="resource-link">
+                  <a href="https://www.atlassian.com/team-playbook/plays/customer-journey-mapping" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'work', 'event_label': 'customer-journey'});">
                     Customer Journey Mapping
                   </a>
                 </div>
@@ -618,7 +609,7 @@
 
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://www.atlassian.com/team-playbook/plays/demo-trust" target="_blank" class="resource-link">
+                  <a href="https://www.atlassian.com/team-playbook/plays/demo-trust" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'work', 'event_label': 'demo-trust'});">
                     Demo Trust
                   </a>
                 </div>
@@ -634,7 +625,7 @@
 
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://www.atlassian.com/team-playbook/plays/end-to-end-demo" target="_blank" class="resource-link">
+                  <a href="https://www.atlassian.com/team-playbook/plays/end-to-end-demo" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'work', 'event_label': 'end-to-end-demo'});">
                     End-to-End Demo
                   </a>
                 </div>
@@ -650,7 +641,7 @@
 
               <div class="resource activity">
                 <div class="resource-title">
-                  <a href="https://www.ibm.com/design/thinking/page/toolkit/activity/feedback-grid" target="_blank" class="resource-link">
+                  <a href="https://www.ibm.com/design/thinking/page/toolkit/activity/feedback-grid" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'work', 'event_label': 'feedback-grid'});">
                     Feedback Grid
                   </a>
                 </div>
@@ -666,7 +657,7 @@
 
               <div class="resource article">
                 <div class="resource-title">
-                  <a href="https://www.figma.com/blog/design-critiques-at-figma/" target="_blank" class="resource-link">
+                  <a href="https://www.figma.com/blog/design-critiques-at-figma/" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'work', 'event_label': 'kinds-of-critiques'});">
                     6 Different Kinds of Critiques
                   </a>
                 </div>
@@ -682,7 +673,7 @@
 
               <div class="resource article">
                 <div class="resource-title">
-                  <a href="https://trydesignlab.com/blog/how-to-ask-for-design-feedback-10-top-tips/" target="_blank" class="resource-link">
+                  <a href="https://trydesignlab.com/blog/how-to-ask-for-design-feedback-10-top-tips/" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'work', 'event_label': 'how-to-ask-feedback'});">
                     How To Ask For Design Feedback
                   </a>
                 </div>
@@ -698,7 +689,7 @@
 
               <div class="resource article">
                 <div class="resource-title">
-                  <a href="https://community.uservoice.com/blog/5-smart-channels-for-gathering-feedback-from-internal-stakeholders/" target="_blank" class="resource-link">
+                  <a href="https://community.uservoice.com/blog/5-smart-channels-for-gathering-feedback-from-internal-stakeholders/" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'work', 'event_label': 'gather-feedback'});">
                     5 Smart Channels for Gathering Feedback from Internal Stakeholders
                   </a>
                 </div>
@@ -715,6 +706,7 @@
             </div>
           </div>
 
+
           <div class="phase" id="communicate">
             <div class="phase-title">
               <h3>Communicate decisions and share learnings</h3>
@@ -725,7 +717,7 @@
             <div class="resources">
               <div class="resource article">
                 <div class="resource-title">
-                  <a href="https://thedigitalprojectmanager.com/how-write-project-communication-plan/" target="_blank" class="resource-link">
+                  <a href="https://thedigitalprojectmanager.com/how-write-project-communication-plan/" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'communicate', 'event_label': 'communication-plan'});">
                     Create a project communication plan
                   </a>
                 </div>
@@ -741,7 +733,7 @@
 
               <div class="resource framework">
                 <div class="resource-title">
-                  <a href="https://docs.google.com/document/d/14j9H9KE13t6FOTqst59wbD5rnZKf0P_Ha59b9oFEnFw/edit?usp=sharing" target="_blank" class="resource-link">
+                  <a href="https://docs.google.com/document/d/14j9H9KE13t6FOTqst59wbD5rnZKf0P_Ha59b9oFEnFw/edit?usp=sharing" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'communicate', 'event_label': 'comm-plan-template'});">
                     Communication Plan Template
                   </a>
                 </div>
@@ -757,7 +749,7 @@
 
               <div class="resource article">
                 <div class="resource-title">
-                  <a href="https://thedigitalprojectmanager.com/project-management-lessons-learned-template/" target="_blank" class="resource-link">
+                  <a href="https://thedigitalprojectmanager.com/project-management-lessons-learned-template/" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'communicate', 'event_label': 'doc-lessons-learned'});">
                     Why & How To Document Lessons Learned
                   </a>
                 </div>
@@ -773,7 +765,7 @@
 
               <div class="resource article">
                 <div class="resource-title">
-                  <a href="https://www.pmi.org/learning/library/lessons-learned-next-level-communicating-7991" target="_blank" class="resource-link">
+                  <a href="https://www.pmi.org/learning/library/lessons-learned-next-level-communicating-7991" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'communicate', 'event_label': 'next-level-lessons-learned'});">
                     Lessons learned - taking it to the next level
                   </a>
                 </div>
@@ -789,7 +781,7 @@
 
               <div class="resource article">
                 <div class="resource-title">
-                  <a href="https://www.amazon.com/Articulating-Design-Decisions-Communicate-Stakeholders/dp/1491921560/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=uxbo09-20&linkId=5e4cc3562c47b2171f0dcbe798833c49" target="_blank" class="resource-link">
+                  <a href="https://www.amazon.com/Articulating-Design-Decisions-Communicate-Stakeholders/dp/1491921560/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=uxbo09-20&linkId=5e4cc3562c47b2171f0dcbe798833c49" target="_blank" class="resource-link" onclick="gtag('event', 'click-resource', {'event_category': 'communicate', 'event_label': 'articulating-design-decisions'});">
                     Articulating Design Decisions
                   </a>
                 </div>
