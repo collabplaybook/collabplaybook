@@ -34,6 +34,7 @@ a:hover {
     line-height: 40px;
     transition: all 1s ease 0s;
     opacity: 0;
+    border-bottom: 0;
 }
 .scroll-up:hover {
 	background-color: #ff8257;
@@ -306,7 +307,7 @@ CHECKBOXES *******************************************
 
 	.resource-category-wrapper {
 		display: inline-block;
-		vertical-align: top;
+		vertical-align: bottom;
 		border-radius: 20px;
 
 	}
